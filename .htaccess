@@ -1,0 +1,3 @@
+        RewriteEngine On
+        RewriteCond %{REQUEST_URI} ^/(grade9\.php|grade10\.php|grade11\.php|grade12\.php|department\.php)$ [NC]
+        RewriteRule ^(.*)$ /user_page.php?page=$1 [L] 
